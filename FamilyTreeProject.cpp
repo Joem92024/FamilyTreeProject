@@ -3,13 +3,19 @@
 
 #include <iostream>
 #include "Person.h"
+#include "Family.h"
+#include "FamilyTree.h"
 
 
 int main()
 {
-	auto me = new Person("Joe", "Michniewicz", Sex::male, true);
-	auto me2 = new Person("first", "lst", Sex::female, true);
-
+	auto famTree = new FamilyTree();
+	auto dad = new Person("Mike", "Brady", Sex::male, true);
+	auto mom = new Person("Carol", "Brady", Sex::female, true);
+	auto fam = new Family(dad, mom);
+	auto child1 = new Person("Marsha", "Brady", Sex::female, true);
+	fam->AddChild(child1);
+	famTree->AddFamily(fam);
 
 	//delete me;
 }

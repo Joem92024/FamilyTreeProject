@@ -9,13 +9,13 @@ using namespace std;
 class Family
 {
 private:
-	/**
-	 * \brief all the children in the family
-	 */
-	vector<Person*> _children;
+
+	vector<Person*> _children; // all the children in the family
 	Person* _parent1;
 	Person* _parent2;
+	string _surname;
 
+	
 public:
 	Family(Person* parent1, Person* parent2);
 

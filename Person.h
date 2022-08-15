@@ -23,6 +23,7 @@ public:
 	Person(string firstName,  string lastname,  Sex sex,  bool living);
 	Person();
 	void AddParents(Person* parent1, Person* parent2);
-
+	string FirstName();
+	string LastName();
 	~Person();
 };
