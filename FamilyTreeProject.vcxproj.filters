@@ -24,6 +24,9 @@
     <ClCompile Include="Family.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FamilyTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
@@ -32,5 +35,11 @@
     <ClInclude Include="Family.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="FamilyTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
   </ItemGroup>
 </Project>

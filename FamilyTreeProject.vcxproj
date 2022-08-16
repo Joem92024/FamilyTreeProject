@@ -128,12 +128,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Family.cpp" />
+    <ClCompile Include="FamilyTree.cpp" />
     <ClCompile Include="FamilyTreeProject.cpp" />
     <ClCompile Include="Person.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Family.h" />
+    <ClInclude Include="FamilyTree.h" />
     <ClInclude Include="Person.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
