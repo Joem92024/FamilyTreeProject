@@ -1,6 +1,5 @@
 #pragma once
 #include <vector>
-#include "Person.h"
 #include "Family.h"
 using namespace std;
 
@@ -11,5 +10,7 @@ private:
 public:
 	FamilyTree();
 	void AddFamily(Family* family);
+	vector<Family*> GetFamilies();
+	~FamilyTree();
 };
 

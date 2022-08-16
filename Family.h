@@ -1,10 +1,14 @@
 #pragma once
-#pragma once
 #include <string>
 #include <vector>
-using namespace std;
 #include "Person.h"
 
+using namespace std;
+
+struct FamilyParents {             // Structure for parents
+	Person* parent1;
+	Person* parent2;
+};
 
 class Family
 {
@@ -20,8 +24,9 @@ public:
 	Family(Person* parent1, Person* parent2);
 
 	void AddChild(Person* child);
+	FamilyParents GetParents();
+	vector<Person*> GetChildren();
 
-	
 	~Family();
 };
 
